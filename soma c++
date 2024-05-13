@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero1, numero2;
+    cout << "Digite um número: ";
+    cin >> numero1;
+    cout << "Digite outro número: ";
+    cin >> numero2;
+    
+    if (numero2 > numero1) {
+        cout << "A soma dos números é: " << numero1 + numero2 << endl;
+    } else if (numero1 > numero2) {
+        cout << "O dobro do primeiro número menos o segundo é: " << (2 * numero1 - numero2) << endl;
+    }else {
+        cout << "Os números são iguais" << endl;
+    }
+    return 0 ;
+}
